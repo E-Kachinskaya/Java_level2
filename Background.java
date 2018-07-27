@@ -18,9 +18,9 @@ public class Background extends Sprite{
         time += deltaTime;
         if (time > 0.9){
             color = new Color(
-                    (int)(Math.random() * 255 + 1),
-                    (int)(Math.random() * 255 + 1),
-                    (int)(Math.random() * 255 + 1)
+                    (int)(Math.random() * 255),
+                    (int)(Math.random() * 255),
+                    (int)(Math.random() * 255)
             );
             time = 0;
         }
